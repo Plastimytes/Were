@@ -1,9 +1,8 @@
-
+import Content from "../components/Content";
 import Title from "../components/Title";
-import Content from "../components/Contents";
+export default function Home(){
 
-function Home() {
-
+function goToNextPage(){}
 
   return (
     <div>
@@ -18,13 +17,10 @@ function Home() {
 
       <Title heading="NDEJJE BLOG" />
       <Content details="This is a very nice blog from NDEJJE" />
-             
-            
+
 
 
     </div>
   );
 }
-
-export default Home;
 
